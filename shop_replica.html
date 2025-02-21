@@ -13,10 +13,26 @@
             text-align: center;
         }
         .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
             background-color: #003366;
             color: white;
-            padding: 20px;
+            padding: 15px 20px;
+        }
+        .header img {
+            height: 50px;
+        }
+        .header .title {
+            flex-grow: 1;
+            text-align: center;
             font-size: 24px;
+        }
+        .header .links a {
+            color: white;
+            text-decoration: none;
+            margin-left: 15px;
+            font-size: 16px;
         }
         .container {
             max-width: 800px;
@@ -42,7 +58,15 @@
     </style>
 </head>
 <body>
-    <div class="header">5th Portsmouth Scouts Shop</div>
+    <div class="header">
+        <img src="logo.png" alt="Scouts Logo">
+        <div class="title">5th Portsmouth Scouts Shop</div>
+        <div class="links">
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
     <div class="container">
         <p>Welcome to our shop! Click the button below to visit the official page.</p>
         <a href="https://sites.google.com/portsmouthscouts.org.uk/5thportsmouth/shop" class="button" target="_blank">Go to Official Shop</a>
