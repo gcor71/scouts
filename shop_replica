@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5th Portsmouth Scout Group Shop (Replica)</title>
+    <style>
+        body {
+            font-family: sans-serif; /* Use a generic sans-serif font */
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #007bff; /* Example color - adjust as needed */
+            color: white;
+            padding: 20px;
+            text-align: center; /* Center the header text */
+        }
+
+        nav {
+            background-color: #f8f9fa; /* Example color - adjust as needed */
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex; /* Use flexbox for horizontal menu */
+            justify-content: center; /* Center the menu items */
+        }
+
+        nav li {
+            margin: 0 15px; /* Add some spacing between items */
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #007bff; /* Example color - adjust as needed */
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .product-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+          grid-gap: 20px;
+        }
+
+        .product {
+          border: 1px solid #ddd;
+          padding: 10px;
+          text-align: center; /* Center product content */
+        }
+
+        .product img {
+          max-width: 100%;
+          height: auto;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed; /* Fixed footer */
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>5th Portsmouth Scout Group Shop (Replica)</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="https://sites.google.com/portsmouthscouts.org.uk/5thportsmouth/" target="_blank">5th Portsmouth Home (Real Page)</a></li>
+            <li><a href="https://sites.google.com/portsmouthscouts.org.uk/5thportsmouth/shop" target="_blank">Original Shop (Real Page)</a></li>
+
+        </ul>
+    </nav>
+
+    <main>
+       <div class="product-grid">
+
+        <div class="product">
+            <img src="placeholder.jpg" alt="Product 1">  <h3>Product 1 (Example)</h3>
+            <p>Description of product 1.</p>
+        </div>
+         <div class="product">
+            <img src="placeholder.jpg" alt="Product 2">  <h3>Product 2 (Example)</h3>
+            <p>Description of product 2.</p>
+        </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 5th Portsmouth Scout Group (Replica)</p>
+    </footer>
+
+</body>
+</html>
